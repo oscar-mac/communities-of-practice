@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface as Mycelial Praxis</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 class='visually-hidden'>Interface as Mycelial Praxis</h1>
+    <aside id='stack' class='noselect' aria-hidden='true'>
+      <p>U <br>S <br>E <br>R </p>
+      <p>I <br>N <br>T <br>E <br>R <br>F <br>A <br>C <br>E </p>
+      <p>A <br>S </p>
+      <p>M <br>Y <br>C <br>E <br>L <br>I <br>A <br>L </p>
+      <p>P <br>R <br>A <br>X <br>I <br>S </p>
+    </aside>
+    <div id='main'>
+      <header>
+        <p> “As you stare at the glass slab in your hand, you are, as a user, connected to a planetary technology that both evolved and was planned in irregular steps over time, each component making use of others: an accidental, discontiguous megastructure. Instead of a single megamachine, planetary computation can be understood as being composed of modular, interdependent, functionally-defined layers, not unlike a network protocol stack.” (Bratton, <a href="https://antikythera.org/planetary-computation" target="_blank">2022)</a>
+        </p>
+      </header>
+      <h2>Interface Design</h2>
+      <p>1. Interfaces, like mycelial networks, act as thresholds that connect and disconnect entities. They structure flows of information or resources by combining and segmenting them. Similarly, mycelial networks connect different organisms and facilitate nutrient exchange, structuring ecological flows.</p>
+      <p>2. Interfaces necessarily simplify and reduce the complexity of underlying systems to make them usable at scale. This reduction is akin to how mycelial networks simplify nutrient exchange processes in ecosystems, making them accessible and beneficial to multiple organisms.</p>
+      <p>3. The semantics of interfaces, such as icons and symbols, find resonance in the symbolic language and chemical signals used by mycelia to convey meanings and facilitate actions in natural environments. Just as icons and diagrams narrativize the possibilities of actions for human users, mycelial praxis narrativizes the ecological relationships and behaviors within a forest or soil community.</p>
+      <p>4. Interfaces impose a structure that shapes user behavior and interaction patterns. Interfaces are not neutral; they reflect and reinforce underlying power structures and ideologies. This aspect of interfaces as ideological and power-inscribed tools parallels how they shape and maintain social and cultural norms within digital environments.</p>
+      <p>5. Interfaces are not isolated; they are part of larger networks that involve users and systems. Similarly, mycelial praxis considers organisms as interconnected within broader ecological networks, emphasizing relationships rather than isolated entities.</p>
+      <h2>Communities of practice</h2>
+      <p> Communities of practice are groups of people who share a concern or a passion for something they do and learn how to do it better as they interact regularly <a href="https://www.wenger-trayner.com/wp-content/uploads/2022/06/15-06-Brief-introduction-to-communities-of-practice.pdf">(Wenger-Trayner, 2015)</a>. Wenger-Trayner states that three characteristics are crucial to a Community of Practice: </p>
+      <p> 1. The domain. A community of practice is not merely a club of friends or a network of connections between people. It has an identity defined by a shared domain of interest. </p>
+      <p> 2. The community. In pursuing their interest in their domain, members engage in joint activities and discussions, help each other, and share information. They build relationships that enable them to learn from each other. </p>
+      <p> 3. The practice. Members of a community of practice are practitioners. They develop a shared repertoire of resources: experiences, stories, tools, ways of addressing recurring problems—in short, a shared practice. </p>
+      <div>
+        <input type="file" id="imageInput">
+        <input type="text" id="linkInput" placeholder="Link">
+        <input type="text" id="altInput" placeholder="Description">
+        <input type="text" id="nameInput" placeholder="Name">
+        <button id="uploadButton">Upload</button>
+      </div>
+      <ol id="imageList" class="image-grid"></ol>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js"></script>
+      <script src="app.js"></script>
+      <footer>
+        <p> Mycelial systems, like interfaces, intricately connect and mediate between different entities and layers of existence. Just as interfaces simplify and synthesize interactions within the technical "Stack" for users, mycelial networks simplify and facilitate interactions within natural environments. They serve as connectors, sensors, and communicators between diverse organisms and ecological layers, much like specialized sensors and codes in technological interfaces. Communities of practice facilitate the flow of knowledge, ideas among members. </p>
+      </footer>
+    </div>
+  </body>
+</html>
